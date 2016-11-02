@@ -1,0 +1,17 @@
+{
+    "name": "Menulist",
+    "alias": "menulist",
+    "description": "",
+    "version": "v0.1",
+    "keywords": [],
+    "active": 1,
+    "order": 1,
+    "providers": [
+        "Modules\\Menulist\\Providers\\MenulistServiceProvider",
+        "Modules\\Menulist\\Providers\\RouteServiceProvider"
+    ],
+    "aliases":{},
+    "files": [
+        
+    ]
+}

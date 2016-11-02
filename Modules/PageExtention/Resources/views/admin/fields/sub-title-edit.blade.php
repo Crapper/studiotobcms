@@ -1,0 +1,1 @@
+{!! Form::i18nInput('sub_title', 'Sub Title', $errors, $lang, $pageExtention) !!}

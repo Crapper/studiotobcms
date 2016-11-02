@@ -1,0 +1,17 @@
+{
+    "name": "ContentBlockText",
+    "alias": "contentblocktext",
+    "description": "",
+    "version": "v0.1",
+    "keywords": [],
+    "active": 1,
+    "order": 1,
+    "providers": [
+        "Modules\\ContentBlockText\\Providers\\ContentBlockTextServiceProvider",
+        "Modules\\ContentBlockText\\Providers\\RouteServiceProvider"
+    ],
+    "aliases":{},
+    "files": [
+        
+    ]
+}

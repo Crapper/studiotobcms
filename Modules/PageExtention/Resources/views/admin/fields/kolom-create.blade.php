@@ -1,0 +1,1 @@
+{!! Form::normalInput('kolom', 'Aantal Kolomen', $errors) !!}
