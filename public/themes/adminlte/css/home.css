@@ -1,0 +1,127 @@
+body {
+    background-color: white !important;
+    font-family: 'Titillium Web', sans-serif !important;
+
+}
+h1 {
+    font-family: 'Indie Flower', cursive !important;
+    color: #FFD700 !important;
+}
+h2 {
+    font-family: 'Indie Flower', cursive !important;
+    color: #FFD700 !important;
+    font-size: 24px;
+}
+.navbar-default {
+    background-color: black !important;
+    border-color: transparent !important;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #FFD700 !important;
+}
+
+.carousel-inner.item > img{
+    width: 100% !important;
+}
+
+
+
+.carousel-inner{
+    width:100%;
+    max-height: 350px !important;
+}
+.carousel-control.right, .carousel-control.left{
+    background-image: none !important;
+}
+.carousel-container{
+    margin-top:-20px;
+}
+
+.content-blok-special-image{
+    position: relative;
+}
+
+.afbeelding-titel{
+    position: absolute;
+    bottom: 50px;
+    background-color: rgba(0, 0, 0, 0.31);
+    width: calc(100% + 30px);
+    left: 10px;
+
+}
+.afbeelding-titel h2{
+    margin-left: 10px;
+    font-size: 18px !important;
+    color: white !important;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+.pic {
+   // border: 5px solid #fff;
+
+    height: 300px;
+    width: 300px;
+    margin: 10px;
+    overflow: hidden;
+
+    /*-webkit-box-shadow: 5px 5px 5px #111;*/
+    /*box-shadow: 5px 5px 5px #111;*/
+}
+
+.grow img {
+    height: 300px;
+    width: 300px;
+
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.grow img:hover {
+    width: 400px;
+    height: 400px;
+    -webkit-filter: grayscale(100%);
+}
+
+
+
+
+/*B&W*/
+.bw {
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.bw:hover {
+    -webkit-filter: grayscale(100%);
+}
+/* Zorgt ervoor dat de foot onderaan blijft */
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    background-color: black;
+}
+/* Einde footer */

@@ -1,0 +1,6 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+#    zorgt er voor dat de public uit de url kan
+    RewriteRule ^(.*)$ public/$1 [L]
+</IfModule>
+
